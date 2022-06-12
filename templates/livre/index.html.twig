@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1 class="text-center  my-3 display-5">hello world</h1>
+    
+    <div class="d-flex justify-content-end align-items-center my-3">
+    <a href="{{ path('livre.create') }}" class="btn btn-primary">Ajouter livre</a>
+    </div>
+{% endblock %}
